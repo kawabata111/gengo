@@ -8,8 +8,8 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import jp.ac.nkc_ai06.myallergy.fragments.CameraFragment
 import jp.ac.nkc_ai06.myallergy.fragments.HomePagerAdapter.HomePagerAdapter
-import jp.ac.nkc_ai06.myallergy.fragments.LanguageFragment
 import jp.ac.nkc_ai06.myallergy.fragments.RegisterFragment
+import jp.ac.nkc_ai06.myallergy.fragments.SettingFragment
 
 class HomeActivity : AppCompatActivity() {
 
@@ -24,7 +24,7 @@ class HomeActivity : AppCompatActivity() {
         val fragments = listOf<Fragment>(
             RegisterFragment(),
             CameraFragment(),
-            LanguageFragment()
+            SettingFragment()
         )
 
         // ViewPager2にアダプターを設定
@@ -33,9 +33,9 @@ class HomeActivity : AppCompatActivity() {
         // TabLayoutとViewPager2を関連付けて、タブのタイトルを設定
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
             when (position) {
-                0 -> tab.text = "register"
+                0 -> tab.text = "Register"
                 1 -> tab.text = "Camera"
-                2 -> tab.text = "Language"
+                2 -> tab.text = "Setting"
             }
         }.attach()
     }

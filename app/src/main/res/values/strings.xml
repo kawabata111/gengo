@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">My allergy</string>
-    <string name="textView">Login</string>
-    <string name="name">name</string>
+    <string name="textView">ログイン</string>
+    <string name="name">名前</string>
+    <string name="password">Password</string>
 
 </resources>
