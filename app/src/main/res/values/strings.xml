@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">My allergy</string>
     <string name="textView">ログイン</string>
@@ -10,4 +9,5 @@
     <string name="change" translatable="false">パスワード変更</string>
     <string name="delete" translatable="false">アカウント削除</string>
     <string name="language" translatable="false">言語</string>
+
 </resources>
