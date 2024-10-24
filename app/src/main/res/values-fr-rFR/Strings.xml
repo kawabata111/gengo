@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My allergy</string>
+    <string name="textView">connexion</string>
+    <string name="name">nom</string>
+    <string name="password">mot de passe</string>
+</resources>

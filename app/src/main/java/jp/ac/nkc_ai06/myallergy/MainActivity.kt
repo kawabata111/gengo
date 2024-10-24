@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val etUsername = findViewById<EditText>(R.id.etUsername)
         val etPassword = findViewById<EditText>(R.id.etPassword)
         val btnLogin = findViewById<Button>(R.id.btnLogin)
+        val changeLanguage = findViewById<Button>(R.id.ChangeLanguage)
 
         // キーボードを強制的に表示する
         etUsername.requestFocus()
@@ -37,5 +38,11 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
+
+        changeLanguage.setOnClickListener {
+            val intent = Intent(this, SettingActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

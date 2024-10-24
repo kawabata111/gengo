@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">My allergy</string>
     <string name="textView">ログイン</string>
     <string name="name">名前</string>
-    <string name="password">Password</string>
-
+    <string name="password">パスワード</string>
+    <string name="language">言語変更</string>
 </resources>
