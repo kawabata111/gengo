@@ -10,7 +10,6 @@
     <string name="delete" translatable="false">アカウント削除</string>
     <string name="language" translatable="false">言語</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     
     <string-array name="lv_setting">
         <item>アカウント設定</item>
