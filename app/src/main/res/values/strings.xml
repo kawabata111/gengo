@@ -9,5 +9,21 @@
     <string name="change" translatable="false">パスワード変更</string>
     <string name="delete" translatable="false">アカウント削除</string>
     <string name="language" translatable="false">言語</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <string-array name="lv_setting">
+        <item>アカウント設定</item>
+        <item>テキストサイズ変更</item>
+    </string-array>
+
+    <string-array name="lv_settingop">
+        <item>アカウント登録</item>
+        <item>パスワード変更</item>
+        <item>アカウント削除</item>
+    </string-array>
+
+
+    
 
 </resources>

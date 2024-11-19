@@ -10,9 +10,17 @@ class SettingActivity:AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.setting_home)
 
-        val button2: Button = findViewById<Button>(R.id.Back2Button)
-        button2.setOnClickListener {
+        val btAccount = findViewById<Button>(R.id.Account)
+        val btTextsize = findViewById<Button>(R.id.TextSize)
+        val btBack = findViewById<Button>(R.id.Back2Button)
+
+        btAccount.setOnClickListener {
+
+        }
+
+        btBack.setOnClickListener {
             finish()
         }
+
     }
 }

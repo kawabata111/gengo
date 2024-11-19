@@ -22,7 +22,6 @@ class HomeActivity : AppCompatActivity() {
 
         // ViewPager2に表示するフラグメントのリストを作成
         val fragments = listOf<Fragment>(
-            RegisterFragment(),
             CameraFragment(),
             SettingFragment()
         )
@@ -33,9 +32,8 @@ class HomeActivity : AppCompatActivity() {
         // TabLayoutとViewPager2を関連付けて、タブのタイトルを設定
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
             when (position) {
-                0 -> tab.text = "Register"
-                1 -> tab.text = "Camera"
-                2 -> tab.text = "Setting"
+                0 -> tab.text = "Camera"
+                1 -> tab.text = "Setting"
             }
         }.attach()
     }
